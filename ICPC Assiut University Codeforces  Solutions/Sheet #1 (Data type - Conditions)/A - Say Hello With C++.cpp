@@ -1,9 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 int main(){
-	
-	cout << " hello world";
-	
-	return 0;
+  
+   string s;
+   cin >> s;
+   
+   cout<<"Hello, "<<s<<"\n";
+    
+
+   return 0;
 }
+
+//problem link : https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/A

@@ -3,16 +3,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int main(){
-			
-	long long a , b , c , d;
-	    
-        cin >> a >> b >> c >> d;
-	    
-	cout<<"Difference = "<< ( a * b ) - ( c * d ) << "\n";
-	    
-	return 0;
-	
+int main(){		
+  long long a , b , c , d;	    
+  cin >> a >> b >> c >> d;	    
+  cout<<"Difference = "<< ( a * b ) - ( c * d ) << "\n";	    
+  return 0;	
 }
 	
 //code ends here.
@@ -63,4 +58,3 @@ Conclusion : If you still don't understand it, don't think too much .Ask your do
 */
 	
 	
-

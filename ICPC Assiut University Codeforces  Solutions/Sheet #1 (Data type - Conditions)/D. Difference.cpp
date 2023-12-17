@@ -10,9 +10,7 @@ int main(){
   return 0;	
 }
 	
-//code ends here.
-	
-	
+//code ends here.	
 	
 /* -- Discussion --
 	

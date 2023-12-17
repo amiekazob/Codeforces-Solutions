@@ -2,7 +2,6 @@
 using namespace std;
 
 int main() {
-  
   long long N, M;
   cin >> N >> M;
   int res1 = N % 10;

@@ -4,8 +4,7 @@
 using namespace std;
 	
 	
-int main(){
-			
+int main(){			
   double r ; 
   cin >> r;
   const double pi = 3.141592653;

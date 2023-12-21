@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+
+int main() {
+  ios_base::sync_with_stdio(0);cin.tie(0);
+  int n, m;
+  cin >> n >> m;
+  int eq1 = 0, eq2 = 0, res = 0;
+  for (int i = 0; i <= 100; i++) {
+    for (int j = 0; j <= 100; j++) {
+       eq1 = (i*i) + j;
+       eq2 = i + (j*j);
+      if (eq1 == n && eq2 == m) {
+        res++;
+      }
+      eq1 = 0, eq2 = 0;
+    }
+  }
+  cout << res << "\n";
+  return 0;
+}
+
+/* hints
+all number start with 0 . so we have to check from 0 to sqrt of
+max range which is 1000 ..and the sqrt of 1000 is 100.
+
+*/

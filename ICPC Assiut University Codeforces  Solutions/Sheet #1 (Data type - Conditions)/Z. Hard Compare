@@ -1,0 +1,29 @@
+/**
+ *    author:  amiekazob
+ *    created: 25.12.2023 23:07    
+**/
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+
+int main() {
+  ios_base::sync_with_stdio(0);cin.tie(0);
+  ll a, b, c, d;
+  cin >> a >> b >> c >> d;
+  if (b * log(a) > d * log (c)) {
+    cout << "YES" << "\n";
+  } 
+  else {
+    cout << "NO" << "\n";
+  }
+  return 0;
+}
+
+/* discussion
+
+in the worst test case 10^7 * 10^12 = 10^19 > 10^18;
+it will over flow the range of 'long long'.So, the normal result can't be store in
+any variable data dype. if we modify it with log , the ratio remain same as the orginal one,
+which also means result will fit in 'long long'.we multiply log both side and  modify it.
+
+*/
